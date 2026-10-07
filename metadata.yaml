@@ -6,7 +6,7 @@ plugin_author: ayacyann
 plugin_version: 1.0.0
 plugin_license: MIT
 plugin_repo_url: ""
-astrbot_version: ">=4.5.7"
+astrbot_version: ">=4.23.3"
 
 # 插件市场（AstrBot Cloud）字段
 name: astrbot_plugin_web_search
