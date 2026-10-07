@@ -1,0 +1,28 @@
+# 插件标识（AstrBot 本地加载）
+plugin_id: astrbot_plugin_web_search
+plugin_name: 网页搜索
+plugin_desc: 为 AstrBot 提供只读联网搜索、正文读取与常用数据查询工具
+plugin_author: ayacyann
+plugin_version: 1.0.0
+plugin_license: MIT
+plugin_repo_url: ""
+astrbot_version: ">=4.5.7"
+
+# 插件市场（AstrBot Cloud）字段
+name: astrbot_plugin_web_search
+display_name: 网页搜索
+short_desc: 联网检索、打开正文，再交给当前聊天模型总结
+desc: |
+  为当前 AstrBot 聊天模型注册 `web_search` 工具。
+
+  支持通用网页搜索、公开代码仓库、创作者信息和天气数据查询。
+  搜索结果会继续读取公开页面正文，再交给当前聊天模型总结。
+
+  内置查询安全检查、内网/本机地址拦截、重定向与页面体积限制。
+version: 1.0.0
+author: ayacyann
+repo: ""
+tags:
+  - 网页搜索
+  - web_search
+  - 工具

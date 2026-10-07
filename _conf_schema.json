@@ -1,0 +1,51 @@
+{
+  "max_results": {
+    "description": "每次联网搜索返回给模型的结果条数（1-20）",
+    "type": "int",
+    "default": 7
+  },
+  "timeout_seconds": {
+    "description": "单次搜索或数据请求超时时间（秒）",
+    "type": "int",
+    "default": 20
+  },
+  "region": {
+    "description": "搜索语言/地区，默认 zh-CN 返回中文结果",
+    "type": "string",
+    "default": "zh-CN",
+    "options": [
+      "zh-CN",
+      "en-US"
+    ]
+  },
+  "include_published": {
+    "description": "是否把 RSS 中的发布时间一并交给模型",
+    "type": "bool",
+    "default": true
+  },
+  "fetch_pages": {
+    "description": "是否实际打开搜索结果页面并提取正文（推荐开启）",
+    "type": "bool",
+    "default": true
+  },
+  "max_pages": {
+    "description": "每次最多抓取前几个页面的正文",
+    "type": "int",
+    "default": 4
+  },
+  "page_timeout_seconds": {
+    "description": "单个网页正文抓取超时时间（秒）",
+    "type": "int",
+    "default": 15
+  },
+  "max_page_chars": {
+    "description": "单个网页最多交给模型的正文字符数",
+    "type": "int",
+    "default": 5000
+  },
+  "block_unsafe_queries": {
+    "description": "拒绝明显违法、危险、侵犯隐私或绕过平台限制的搜索请求",
+    "type": "bool",
+    "default": true
+  }
+}
