@@ -1,0 +1,2 @@
+# astrbot_plugin_web_search
+Astrbot网页搜索插件
